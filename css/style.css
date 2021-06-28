@@ -46,7 +46,7 @@ main {
 
 .arrow-cont {
     width: 5%;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 150px);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -106,4 +106,60 @@ main {
 }
 
 /* / main */
+
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: rgba(78, 228, 19, 0.9);
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-cont {
+    width: 100%;
+    height: 80px;
+    background-color: saddlebrown;
+}
+
+.footer-cont section.first,
+.footer-cont section.third {
+    width: 20%;
+    height: 100%;
+    background-color: #232427;
+    float: left;
+    display: flex;
+}
+
+.footer-cont section.second {
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+.footer-cont section.first .button-cont {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-cont section.first .button-cont .text {
+    margin-top: 5px;
+}
+
+.footer-cont section.first .button-cont i {
+    font-size: 30px;
+}
+
+.footer-cont section.first .up-arrow {
+ line-height: 80px;
+ color: white;
+}
+
 
