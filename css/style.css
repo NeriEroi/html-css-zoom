@@ -128,8 +128,7 @@ footer {
 
 /* general */
 
-.footer-cont section.first,
-.footer-cont section.third {
+.footer-cont section.first {
     width: 15%;
     height: 100%;
     background-color: #232427;
@@ -144,6 +143,14 @@ footer {
     float: left;
     display: flex;
     justify-content: center;
+}
+
+.footer-cont section.third {
+    width: 15%;
+    height: 100%;
+    background-color: #232427;
+    float: left;
+    display: flex;
 }
 
 /* / general */
@@ -168,7 +175,7 @@ footer {
 }
 
 .footer-cont section.first .button-cont .text {
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .footer-cont section.first .button-cont i {
@@ -195,6 +202,10 @@ footer {
 
 /* second section */
 
+.footer-cont section.second {
+    padding-left: 80px;
+}
+
 .footer-cont section.second .button-cont {
     width: 11%;
     height: 100%;
@@ -202,6 +213,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 170px;
     color: white;
     position: relative;
 }
@@ -212,7 +224,7 @@ footer {
 
 .footer-cont section.second .button-cont .text {
     margin-top: 5px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .footer-cont section.second .button-cont #tw8 {
