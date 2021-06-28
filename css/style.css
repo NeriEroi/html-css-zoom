@@ -151,6 +151,12 @@ footer {
 
 /* first section */
 
+.footer-cont section.first {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
 .footer-cont section.first .button-cont {
     width: 30%;
     height: 100%;
@@ -172,6 +178,16 @@ footer {
 .footer-cont section.first .up-arrow {
  line-height: 80px;
  color: white;
+}
+
+.footer-cont section.first .up-arrow.one {
+    position: absolute;
+    left: 105px;
+}
+
+.footer-cont section.first .up-arrow.two {
+    position: absolute;
+    left: 268px;
 }
 
 /* / first section */
