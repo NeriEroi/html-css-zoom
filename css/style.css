@@ -59,6 +59,10 @@ main {
     color: lightgrey;
 }
 
+.arrow-cont #arrow:hover .fa-caret-right {
+    color: #2EBAFF;
+}
+
 .arrow-cont #half {
     font-weight: 400;
     color: ivory;
@@ -67,7 +71,6 @@ main {
 .webcams {
     width: 90%;
     height: calc(100vh - 150px);
-    /* background-color: orangered; */
 }
 
 .row {
@@ -112,7 +115,6 @@ main {
 
 footer {
     height: 100px;
-    /* background-color: rgba(78, 228, 19, 0.9); */
     display: flex;
     align-items: flex-end;
 }
@@ -120,7 +122,6 @@ footer {
 .footer-cont {
     width: 100%;
     height: 80px;
-    /* background-color: saddlebrown; */
 }
 
 
@@ -194,6 +195,10 @@ footer {
 .footer-cont section.second .button-cont .text {
     margin-top: 5px;
     text-align: center;
+}
+
+.footer-cont section.second .button-cont .green {
+    color: lime;
 }
 
 .footer-cont section.second .up-arrow {
