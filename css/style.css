@@ -14,6 +14,8 @@ body {
     background-color: #010101;
 }
 
+/* header */
+
 header .span-cont {
     height: 50px;
     margin-right: 10px;
@@ -31,4 +33,54 @@ header .span-cont span {
 
 header .span-cont span:first-child {
     margin-right: 5px;
+}
+
+/* / header */
+
+
+/* main */
+
+main {
+    display: flex;
+}
+
+.arrow-cont {
+    width: 5%;
+    height: calc(100vh - 130px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-cont #arrow {
+    font-size: 50px;
+    font-weight: 800;
+    color: lightgrey;
+}
+
+.arrow-cont #half {
+    font-weight: 400;
+    color: ivory;
+}
+
+.webcams {
+    width: 90%;
+    height: calc(100vh - 150px);
+    /* background-color: orangered; */
+}
+
+.row {
+    display: flex;
+    height: calc((100% / 5) - 10px) 
+    
+}
+
+.webcams .row .webcam-cont {
+    width: calc(100% / 5) - 10px);
+    margin: 5px;
+}
+
+.webcams .row .webcam-cont img {
+    width: 100%;
 }
