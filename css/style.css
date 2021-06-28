@@ -79,6 +79,12 @@ main {
 .webcams .row .webcam-cont {
     width: calc((100% / 5) - 10px));
     margin: 5px;
+    position: relative;
+}
+
+.webcams .row .webcam-cont.frame {
+    border: 3px solid;
+    border-color: rgba(78, 228, 19, 0.9);
 }
 
 .webcams .row .webcam-cont img {
@@ -86,3 +92,18 @@ main {
     height: 100%;
     object-fit: cover;
 }
+
+.webcams .row .webcam-cont .name {
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.webcams .row .webcam-cont .name i {
+    color: red;
+}
+
+/* / main */
+
