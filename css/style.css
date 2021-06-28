@@ -14,6 +14,7 @@ body {
     background-color: #010101;
 }
 
+
 /* header */
 
 header .span-cont {
@@ -186,6 +187,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    position: relative;
 }
 
 .footer-cont section.second .button-cont i {
@@ -195,6 +197,12 @@ footer {
 .footer-cont section.second .button-cont .text {
     margin-top: 5px;
     text-align: center;
+}
+
+.footer-cont section.second .button-cont #tw8 {
+    position: absolute;
+    top: 5px;
+    right: 25px;
 }
 
 .footer-cont section.second .button-cont .green {
