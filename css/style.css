@@ -160,7 +160,7 @@ footer {
 
 .footer-cont section.first {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     position: relative;
 }
 
@@ -172,6 +172,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    margin-right: 10px;
 }
 
 .footer-cont section.first .button-cont .text {
@@ -189,12 +190,12 @@ footer {
 
 .footer-cont section.first .up-arrow.one {
     position: absolute;
-    left: 105px;
+    left: 70px;
 }
 
 .footer-cont section.first .up-arrow.two {
     position: absolute;
-    left: 268px;
+    left: 190px;
 }
 
 /* / first section */
