@@ -213,9 +213,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 170px;
     color: white;
     position: relative;
+}
+
+.footer-cont section.second .button-cont:nth-of-type(2) {
+    flex-basis: 170px;
 }
 
 .footer-cont section.second .button-cont i {
