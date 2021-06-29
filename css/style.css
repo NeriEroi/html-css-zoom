@@ -81,7 +81,7 @@ main {
 }
 
 .webcams .row .webcam-cont {
-    width: calc((100% / 5) - 10px));
+    width: calc(100% / 5) - 10px;
     margin: 5px;
     position: relative;
 }
